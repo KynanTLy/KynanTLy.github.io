@@ -1,0 +1,72 @@
+# Welcome to Jekyll!
+
+# Website settings
+title: Kynan
+description: Kynan's Site that uses Jekyll and github pages.
+keywords: Kynan, Tran ,Ly ,Jekyll,github,gh-pages
+baseurl:  /homepage # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
+url: https://KynanTLy.github.io/homepage  # url should be 'http://<github_username>.github.io/homepage' as before
+# url: http://127.0.0.1:4000
+img_path: /homepage/static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
+
+# author -- index page "about me" section
+author:  # change following line to your infomation.
+  name: Kynan  # Be used at blog posts' author.
+  first_name: Kynan  # Be used at index page about me section.
+  last_name: Ly  # Be used at index page about me section.
+  avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
+  github_username: KynanTLy  # Leave blank if you don't have now
+  linkedin_id: 7703b813a # Leave blank if you don't have now
+  facebook_username:   # Leave blank if you don't have now
+  twitter_username:   # Leave blank if you don't have now
+  email: kynan.ly@hotmail.ca  # Leave blank if you don't have now
+  cv:   # An online CV can be printed as PDF, leave blank if you don't have now
+  # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
+  skill_icon1:
+    - name: icon-apache
+    - name: fa-linux
+  skill_icon2:
+    - name: fa-linux
+    - name: icon-apache
+  desc: Hello, my name is Kynan. I am a first year Master's student at the University of Alberta studying Humanities Computing. During my undergraduate degree in Computer Science Specialization I discovered that there were a wide range of different application Computing Science could have on other fields. From the health sector to education, the possibilities were endless. With that in mind I decided to pursue these applications in a Master’s Program at the University of Alberta.
+
+
+
+# comment
+disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
+  name: 
+
+# analytics
+## google analytics
+ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
+  # id:
+
+## google optimize
+go:
+  # id:
+
+## growingIO
+gio:  # if you wanna this feature, go to https://www.growingio.com/ to get your configuration; if not, comment following line.
+  # id:
+
+## donation
+donation: off  # type 'on'/'off' to choice display donation button at post page or not
+
+## carousels
+index_carousel: on  # index page carousel switch
+blog_carousel: on  # blog page carousel switch
+
+# scss
+sass:
+  style: compressed
+
+# Build settings
+encoding: utf-8
+
+# other settings
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
